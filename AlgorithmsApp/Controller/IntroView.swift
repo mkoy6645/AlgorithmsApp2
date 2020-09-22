@@ -5,22 +5,28 @@
 import SwiftUI
 
 
-NavigationView
+struct IntroView: View
 {
-    VStack
+    var body: some View
     {
-        Text("Introduction to algorithms in CSP")
-        Image("Code Example 66% @2x")
-        
-    
-    NavigationLink("Placeholder" destination: Navdemo))
+        NavigationView;
+        {
+            VStack
+            {
+                Text("Introduction to algorithms in CSP")
+                Image("Code Example 66% @2x")
+                NavigationLink("Placeholder" destination: Navdemo));
+            }
+        }
+    }
 }
 
-    let algorithmTitle : String "Code Alogrithm"
+
+    let algorithmTitle : String ("Code Alogrithm");
     
 }
 
-private func setupAlgorithm -> String
+private func setupAlgorithm() -> String;
 {
     let algorithmTitle : String = "How to dance"
     
@@ -44,18 +50,18 @@ private func setupAlgorithm -> String
     return algorithmDescription
         
     
-    VStack
-    {
-        Text(algorithmText)
-            .bold()
-        Image("my algorithm")
-            .resizable()
-            .scaledToFit()
-        Text(setupAlgorithm())
-            .rotation3DEffect(Angle(degrees: 45),
+        VStack
+            {
+                Text(algorithmText)
+                    .bold()
+                Image("my algorithm")
+                    .resizable()
+                    .scaledToFit()
+                Text(setupAlgorithm())
+                    .rotation3DEffect(Angle(degrees: 45),
                               axis: (x : 1.0, y: 0.0, z: 0.0))
         NavigationLink("Switch to Intro View", destination: IntroView())
-    }
+        }
     
     
 }
