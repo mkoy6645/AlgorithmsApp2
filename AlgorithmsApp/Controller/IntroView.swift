@@ -9,25 +9,26 @@ struct IntroView: View
 {
     var body: some View
     {
-        NavigationView;
+        NavigationView
         {
             VStack
             {
                 Text("Introduction to algorithms in CSP")
                 Image("Code Example 66% @2x")
-                NavigationLink("Placeholder" destination: Navdemo));
+                NavigationLink ("Move to AlgorithmvView", destination: AlgorithmView())
             }
         }
     }
 }
 
 
-    let algorithmTitle : String ("Code Alogrithm");
     
-}
+    
+
 
 private func setupAlgorithm() -> String;
 {
+    let algorithmTitle : String ("Code Alogrithm");
     let algorithmTitle : String = "How to dance"
     
     let stepOne : String = "First you do asdf "
@@ -47,6 +48,7 @@ private func setupAlgorithm() -> String;
         algorithmDescription.append(bulletedStep)
         
     }
+}
     return algorithmDescription
         
     
