@@ -316,7 +316,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AlgorithmsApp/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = AlgorithmsApp/Resources/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AlgorithmsApp/Resources /Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,7 +337,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AlgorithmsApp/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = AlgorithmsApp/Resources/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AlgorithmsApp/Resources /Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

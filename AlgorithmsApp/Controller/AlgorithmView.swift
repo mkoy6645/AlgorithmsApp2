@@ -31,20 +31,24 @@ struct AlgotithmView: View
 private func setupAlgorithm() -> String
 {
     
-    let algorithmTitle : String = ("How to dance")
+    let algorithmTitle : String = ("   How to tie your shoes")
     
-    let stepOne : String = "First you do asdf "
-    let stepTwo : String = "First you do asdf "
-    let stepThree : String = "First you do asdf "
-    let stepFour : String = "First you do asdf "
+    let stepOne : String = "Put on shoe "
+    let stepTwo : String = "Take left lace over right "
+    let stepThree : String = "Left lace down under them"
+    let stepFour : String = "Pull laces tight"
+    let stepFive : String = "Make a loop with left lace"
+    let stepSix : String = "Wrap right lace around the loop"
+    let stepSeven : String = "Pull the right lace through the hole"
+    let stepEight : String = "Pull laces tight"
     
-    let algorithm = [stepOne, stepTwo, stepThree, stepFour]
+    let algorithm = [stepOne, stepTwo, stepThree, stepFour, stepFive, stepSix, stepSeven, stepEight]
     
     var algorithmDescription = algorithmTitle
     
     for step in algorithm
     {
-        let bullet : String = "sd"
+        let bullet : String = " "
         let bulletedStep : String = "\n \(bullet) \(step)"
         
         algorithmDescription.append(bulletedStep)
@@ -72,7 +76,7 @@ struct AlgorithmView: View
         {
             VStack
             {
-        Text("algorithmText")
+        Text("Algorithm")
             .bold()
         Image("code example")
             .resizable()
